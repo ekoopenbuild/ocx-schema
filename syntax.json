@@ -1,0 +1,8 @@
+{
+	"OCXSchema": "v1.10.18",
+	"OCXMessageType": "Request",
+	"OCXMessageForm": "ServiceToService",
+	"OCXCommand": "sampleCommand",
+	"OCXPath": "/sample/command",
+	"OCXArguments": {}
+}
