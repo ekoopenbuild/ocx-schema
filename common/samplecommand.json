@@ -1,0 +1,19 @@
+{
+	"service": "common",
+	"command": "sampleCommand",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-07/schema#",
+		"$id": "https://octopusx.io/schemas/v1/common/samplecommand.json",
+		"type": "object",
+		"properties": {
+			"argument1": { "type": "string" },
+            "argument2": { "type": "number" },
+			"argument3": {
+                "type": "object",
+                "properties": {
+                    "argument4": { "type": "string" }
+                }
+            }
+		}
+	}
+}
